@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: './tex/ANTIQUELEGACY-REGULAR.OTF', sans-serif;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+}
+
+/* Navbar */
+
+.nav-header {
+    margin: 1em;
+    color: #000;
+}
+
+.nav-row {
+    display: flex;
+}
+
+.nav-column {
+    display: flex;
+}
+
+.nav-title {
+    color: #fff;
+    background-color: #000;
+    width: 16%;
+}
+
+.marg1{
+    width: 48%;
+}
+
+.nav-language{
+    border: none;
+    background: none;
+}
+
+.nav-language:hover{
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-marg3 {
+    background-color: #000;
+    width: 32%;
+    margin: 1em;
+}
+
+.nav-search{
+    float: right;
+    text-align: right;
+    border: none;
+    background: none;
+    color: #fff;
+    background-color: #000;
+}
+
+.nav-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+/* Accordéon */
+
+.cd-accordion__input { 
+    position: absolute;
+    opacity: 0;
+}
+
+#group-1:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-1:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-2:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-3:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-4:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-5:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-6:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-7:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-8:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-9:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-10:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-11:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-12:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-13:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-14:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+.cd-accordion__label:hover { 
+    background-color: #000;
+    color: #fff;
+}
+  
+.cd-accordion__label {
+    display: flex;
+    margin-left: 1em;
+    width: 16%;
+    color: #000;
+    text-decoration: none;
+    border-right: 1px solid black;
+  }
+
+.cd-accordion__sub {
+    display: none;
+  }
+  
+.cd-accordion__input:checked ~ .cd-accordion__sub {
+    display: block;
+  }
