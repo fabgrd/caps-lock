@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="page.css">
 </head>
 <body>
-    <section class="">
+    <section class="navbar">
         <div class="nav-row">
             <span class="nav-title nav-header nav-column">Time Capsule</span>
             <div class="marg1"></div>
@@ -21,11 +21,35 @@
         </div>
     </section>
 
-    <ul class="cd-accordion margin-top-lg margin-bottom-lg">
+    <!-- Localisation -->
+    <section class="localisation">
+      <div class="main-row">
+      <ul class="cd-accordion firstline-accordion">
         <li class="cd-accordion__item cd-accordion__item--has-children">
           <input class="cd-accordion__input" type="checkbox" name ="group-1" id="group-1">
           <label class="cd-accordion__label cd-accordion__label--icon-folder" for="group-1"><span>Europe</span></label>
     
+          <!-- Belgique -->
+          <ul class="cd-accordion__sub cd-accordion__sub--l1">
+            <li class="cd-accordion__item cd-accordion__item--has-children">
+              <input class="cd-accordion__input" type="checkbox" name ="sub-group-0" id="sub-group-0">
+              <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-0"><span>&emsp;Belgique</span></label>
+      
+              <ul class="cd-accordion__sub cd-accordion__sub--l3">
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Anvers</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Brabant flamand</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Brabant wallon</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Flandre-Occidentale</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Flandre-Orientale</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Hainaut</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Liège</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Limbourg</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Luxembourg</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Namur</span></a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- France -->
           <ul class="cd-accordion__sub cd-accordion__sub--l1">
             <li class="cd-accordion__item cd-accordion__item--has-children">
               <input class="cd-accordion__input" type="checkbox" name ="sub-group-1" id="sub-group-1">
@@ -233,7 +257,7 @@
               <ul class="cd-accordion__sub cd-accordion__sub--l1">
                 <li class="cd-accordion__item cd-accordion__item--has-children">
                   <input class="cd-accordion__input" type="checkbox" name ="sub-group-14" id="sub-group-14">
-                  <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-14"><span>&emsp;&emsp;Provence-Aples-Côte d'Azur</span></label>
+                  <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-14"><span>&emsp;&emsp;Provence-Alpes-Côte d'Az.</span></label>
 
                   <ul class="cd-accordion__sub cd-accordion__sub--l3">
                     <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;&emsp;Alpes-de-Haute-Provence (04)</span></a></li>
@@ -247,11 +271,53 @@
               </ul>
             </li>
           </ul>
+          <!-- Suisse -->
+          <ul class="cd-accordion__sub cd-accordion__sub--l1">
+            <li class="cd-accordion__item cd-accordion__item--has-children">
+              <input class="cd-accordion__input" type="checkbox" name ="sub-group-15" id="sub-group-15">
+              <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-15"><span>&emsp;Suisse</span></label>
+      
+              <ul class="cd-accordion__sub cd-accordion__sub--l3">
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Appenzell Rhodes-Extérieur</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Appenzell Rhodes-Intérieur</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Argovie</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Bâle-Campagne</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Bâle-Ville</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Berne</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Fribourg</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Genève</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Glaris</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Grisons</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Jura</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Lucerne</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Neuchâtel</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Nidwald</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Obwald</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Saint-Gall</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Schaffhouse</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Schwytz</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Soleure</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Tessin</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Thurgovie</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Uri</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Valais</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Vaud</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Zoug</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>&emsp;&emsp;Zurich</span></a></li>
+              </ul>
+            </li>
+          </ul>
         </li>
       </ul>
+      <div class="vl0"></div>
+      <div class="vl1"></div>
+      <div class="vl2"></div>
+      <canvas class="webgl"></canvas>
+    </div>
+    </section>
       
-    <!-- Optional JavaScript -->
-    <script src="" async></script>
+    <!-- JavaScript -->
+    <script type="module" src="index.js"></script>
   </body>
 </html>
 </body>

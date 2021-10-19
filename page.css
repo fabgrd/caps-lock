@@ -63,14 +63,27 @@
     border-bottom: 1px solid black;
 }
 
-/* Accordéon */
+/* Localisation */
+
+.main-row {
+    display: flex;
+}
 
 .cd-accordion__input { 
     position: absolute;
     opacity: 0;
 }
 
+.firstline-accordion {
+    margin-top: 1em;
+}
+
 #group-1:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
+#sub-group-0:checked + label {
     background-color: #000;
     color: #fff;
 }
@@ -145,6 +158,11 @@
     color: #fff;
 }
 
+#sub-group-15:checked + label {
+    background-color: #000;
+    color: #fff;
+}
+
 .cd-accordion__label:hover { 
     background-color: #000;
     color: #fff;
@@ -153,10 +171,9 @@
 .cd-accordion__label {
     display: flex;
     margin-left: 1em;
-    width: 16%;
+    width: 100%;
     color: #000;
     text-decoration: none;
-    border-right: 1px solid black;
   }
 
 .cd-accordion__sub {
@@ -166,3 +183,25 @@
 .cd-accordion__input:checked ~ .cd-accordion__sub {
     display: block;
   }
+
+.vl0 {
+  position: absolute; top: 50px; left: 16%; 
+  border-left: 1px solid black;
+  height: 930px;
+}
+
+.vl1 {
+    position: absolute; top: 50px; left: 40%; 
+    border-left: 1px solid black;
+    height: 930px;
+}
+
+.vl2 {
+    position: absolute; top: 50px; left: 64%; 
+    border-left: 1px solid black;
+    height: 930px;
+}
+
+.webgl {
+    position: absolute; top: 50px; left: 64%; 
+}
