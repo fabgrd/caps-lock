@@ -6,7 +6,7 @@ const canvas = document.querySelector('.webgl')
 const scene = new THREE.Scene()
 
 const loader =  new GLTFLoader()
-loader.load('./tex/Default.glb', function(glb){
+loader.load('./tex/GLB_Tanguy2.glb', function(glb){
     console.log(glb)
     const root = glb.scene
     root.scale.set(0.008, 0.008, 0.008)
@@ -30,7 +30,7 @@ const sizes = {
 
 const camera = new THREE.PerspectiveCamera(40, sizes.width/sizes.height, 0.2, 100)
 camera.position.x = 0
-camera.position.y = 1.5
+camera.position.y = 0
 camera.position.z = 2
 scene.add(camera)
 
@@ -45,6 +45,7 @@ controls.enableDamping = true; // an animation loop is required when either damp
 controls.dampingFactor = 0.09;
 controls.autoRotate = true;
 controls.autoRotateSpeed = 1;
+controls.target.set(-0.5,0,0)
 
 controls.screenSpacePanning = false;
 
