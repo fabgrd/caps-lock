@@ -18,14 +18,19 @@ loader.load('./tex/GLB_Tanguy2.glb', function(glb){
     console.log('Une erreur frr');
 })
 
-const light = new THREE.DirectionalLight(0xffffff, 4.5)
-light.position.set(2, 3, 4)
-scene.add(light)
+// const hemiLight = new THREE.HemisphereLight(0xffeeb1, 0x080820, 4);
+// scene.add(hemiLight);
+
+const light = new THREE.SpotLight(0xffffff,4);
+light.position.set(-50, 50, 50);
+light.castShadow = true;
+scene.add( light );
+
 
 // Boiler Plate Code
 const sizes = {
     width: 690,
-    height: 930
+    height: 880
 }
 
 const camera = new THREE.PerspectiveCamera(40, sizes.width/sizes.height, 0.2, 100)
@@ -50,7 +55,7 @@ controls.target.set(-0.5,0,0)
 controls.screenSpacePanning = false;
 
 controls.minDistance = 5;
-controls.maxDistance = 5;
+controls.maxDistance = 10;
 
 controls.maxPolarAngle = Math.PI / 2;
 
@@ -60,6 +65,11 @@ renderer.shadowMap.enabled = true
 renderer.outputEncoding = true
 
 function animate(){
+    light.position.set( 
+        camera.position.x + 10,
+        camera.position.y + 10,
+        camera.position.z + 10,
+      );
     requestAnimationFrame(animate)
     controls.update();
     renderer.render(scene, camera)

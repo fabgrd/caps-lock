@@ -177,22 +177,22 @@
     color: #fff;
 }
 
-.cd-accordion__label:hover { 
+.list-link:hover { 
     background-color: #000;
     color: #fff;
 }
   
-.cd-accordion__label {
+.list-link{
     margin-left: 1em;
     color: #000;
     text-decoration: none;
   }
 
-.cd-accordion__sub {
+.hide_ul {
     display: none;
   }
   
-.cd-accordion__input:checked ~ .cd-accordion__sub {
+.cd-accordion__input:checked ~ .hide_ul {
     display: block;
   }
 
@@ -214,11 +214,10 @@
     height: 930px;
 }
 
-.people-header {
-    margin-top: 1em;
-    margin-bottom: 2em;
-    color: #fff;
-    background-color: #000;
+.hl2 {
+    position: absolute; top: 930px; 
+    border-bottom: 1px solid black;
+    width: 100%;
 }
 
 .people-row {
@@ -226,19 +225,30 @@
     width: 24%;
 }
 
+.people-header {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: #fff;
+    background-color: #000;
+}
+
+.people-names {
+    color: #000;
+    text-decoration: none;
+}
+
+.people-names:hover { 
+    background-color: #000;
+    color: #fff;
+}
+
 .col-2 {
     width: 65%;
     margin-left: 1em;
 }
 
-.people-name {
-}
-
 .col-3 {
     width: 20%;
-}
-
-.people-date {
 }
 
 .col-4 {
@@ -246,7 +256,53 @@
     width: 15%;
 }
 
-.people-hour {
+.col-5 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.data-people-row {
+    display: flex;
+    width: 24%;
+}
+
+.data-header {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    color: #fff;
+    background-color: #000;
+}
+
+.iconographic-section {
+    position: absolute; top: 600px; left: 40%;
+    width: 22.3%;
+    margin-left: 1em;
+
+}
+
+.ref-nb {
+    position: absolute; top: 930px; left: 16%;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.futur-message {
+    position: absolute; top: 930px; left: 64%;
+    margin-top: 1em;
+    margin-left: 1em;
+    width: 34.4%;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+}
+
+.dl-file {
+    position: absolute; top: 930px; left: 88%;
+    margin-top: 1em;
+    margin-left: 1em;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
 }
 
 .webgl {

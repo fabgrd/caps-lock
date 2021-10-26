@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>page</title>
+  <title>Capsule</title>
   <!-- Liens externes -->
   <link rel="stylesheet" href="page.css">
 </head>
@@ -80,7 +80,7 @@
 
                     <ul class="hide_ul hide_ul--l3">
                       <li class="list-item"><a class="list-link"
-                          href="/ain"><span>&emsp;&emsp;&emsp;Ain (01)</span></a></li>
+                          href="#0"><span>&emsp;&emsp;&emsp;Ain (01)</span></a></li>
                       <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Allier (03)</span></a></li>
                       <li class="list-item"><a class="list-link"
@@ -121,10 +121,7 @@
                           href="#0"><span>&emsp;&emsp;&emsp;Jura (39)</span></a></li>
                       <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Nièvre (58)</span></a></li>
-                      <li cl
-                      Nom
-                      Mama
-                      Karimass="list-item"><a class="list-link"
+                      <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Haute-Saône (70)</span></a></li>
                       <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Saône-et-Loire (71)</span></a></li>
@@ -227,7 +224,7 @@
 
                     <ul class="hide_ul hide_ul--l3">
                       <li class="list-item"><a class="list-link"
-                          href="#aisne"><span>&emsp;&emsp;&emsp;Aisne (02)</span></a></li>
+                          href="#0"><span>&emsp;&emsp;&emsp;Aisne (02)</span></a></li>
                       <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Nord (59)</span></a></li>
                       <li class="list-item"><a class="list-link"
@@ -348,7 +345,7 @@
                       <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Hautes-Pyrénées (65)</span></a></li>
                       <li class="list-item"><a class="list-link"
-                          href="#0"><spainan>&emsp;&emsp;&emsp;Pyrénées-Orientales (66)</span></a></li>
+                          href="#0"><span>&emsp;&emsp;&emsp;Pyrénées-Orientales (66)</span></a></li>
                       <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Tarn (81)</span></a></li>
                       <li class="list-item"><a class="list-link"
@@ -469,15 +466,27 @@
       <div class="people-row">
         <div class="col-2">
           <h1 class="people-name people-header people-column">Nom</h1>
-          
+          <% items.info.France.aisne.forEach(function(item){ %>
+            <h3 class="">
+              <%= item.name %>
+            </h3>
+          <% }) %>
         </div>
         <div class="col-3">
           <h1 class="people-date people-header people-column">Date</h1>
-          
+          <% items.info.France.aisne.forEach(function(item){ %>
+            <h3 class="">
+              <%= item.date %>
+            </h3>
+          <% }) %>
         </div>
         <div class="col-4">
           <h1 class="people-hour people-header people-column">Heure</h1>
-          
+          <% items.info.France.aisne.forEach(function(item){ %>
+            <h3 class="">
+              <%= item.hour %>
+            </h3>
+          <% }) %>
         </div>
       </div>
       <div class="vl0"></div>

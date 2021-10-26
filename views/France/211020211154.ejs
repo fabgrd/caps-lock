@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>page</title>
+  <title>Capsule</title>
   <!-- Liens externes -->
   <link rel="stylesheet" href="page.css">
 </head>
@@ -80,9 +80,9 @@
 
                     <ul class="hide_ul hide_ul--l3">
                       <li class="list-item"><a class="list-link"
-                          href="/ain"><span>&emsp;&emsp;&emsp;Ain (01)</span></a></li>
+                          href="/01"><span>&emsp;&emsp;&emsp;Ain (01)</span></a></li>
                       <li class="list-item"><a class="list-link"
-                          href="#0"><span>&emsp;&emsp;&emsp;Allier (03)</span></a></li>
+                          href="/02"><span>&emsp;&emsp;&emsp;Allier (03)</span></a></li>
                       <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Ardèche (07)</span></a></li>
                       <li class="list-item"><a class="list-link"
@@ -121,10 +121,7 @@
                           href="#0"><span>&emsp;&emsp;&emsp;Jura (39)</span></a></li>
                       <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Nièvre (58)</span></a></li>
-                      <li cl
-                      Nom
-                      Mama
-                      Karimass="list-item"><a class="list-link"
+                      <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Haute-Saône (70)</span></a></li>
                       <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Saône-et-Loire (71)</span></a></li>
@@ -227,7 +224,7 @@
 
                     <ul class="hide_ul hide_ul--l3">
                       <li class="list-item"><a class="list-link"
-                          href="#aisne"><span>&emsp;&emsp;&emsp;Aisne (02)</span></a></li>
+                          href="/aisne"><span>&emsp;&emsp;&emsp;Aisne (02)</span></a></li>
                       <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Nord (59)</span></a></li>
                       <li class="list-item"><a class="list-link"
@@ -348,7 +345,7 @@
                       <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Hautes-Pyrénées (65)</span></a></li>
                       <li class="list-item"><a class="list-link"
-                          href="#0"><spainan>&emsp;&emsp;&emsp;Pyrénées-Orientales (66)</span></a></li>
+                          href="#0"><span>&emsp;&emsp;&emsp;Pyrénées-Orientales (66)</span></a></li>
                       <li class="list-item"><a class="list-link"
                           href="#0"><span>&emsp;&emsp;&emsp;Tarn (81)</span></a></li>
                       <li class="list-item"><a class="list-link"
@@ -468,28 +465,57 @@
       </div>
       <div class="people-row">
         <div class="col-2">
-          <h1 class="people-name people-header people-column">Nom</h1>
-          
+          <h1 class="people-header people-column">Nom</h1>
+          <% items.info.France.ain.forEach(function(item){ %>
+            <a class="people-names" href="<%= item.ref %>">
+              <%= item.name %> <br>
+            </a>
+          <% }) %>
         </div>
         <div class="col-3">
-          <h1 class="people-date people-header people-column">Date</h1>
-          
+          <h1 class="people-header people-column">Date</h1>
+          <% items.info.France.ain.forEach(function(item){ %>
+            <h3 class="">
+              <%= item.date %>
+            </h3>
+          <% }) %>
         </div>
         <div class="col-4">
-          <h1 class="people-hour people-header people-column">Heure</h1>
-          
+          <h1 class="people-header people-column">Heure</h1>
+          <% items.info.France.ain.forEach(function(item){ %>
+            <h3 class="">
+              <%= item.hour %>
+            </h3>
+          <% }) %>
+        </div>
+      </div>
+      <div class="data-people-row">
+        <div class="col-5">
+          <h1 class="data-header">Page libre</h1>
+          <h3 class = "">Cette section est une page libre dans laquelle vous pouvez
+            vous exprimer. (Vieille photo, lettres d’amour, scans, journaux,
+            billet d’avion, quelque chose qui fait sens pour vous).</h3>
+          <h1 class="data-header">Texte</h1>
+          <h3>Les hommes occupent très peu de place sur la terre. Si les deux milliards d'habitants qui peuplent la terre se tenaient debout et un peu serrés, comme pour un meeting, ils logeraient aisément sur une place publique de vingt milles de long sur vingt milles de large. On pourrait entasser l'humanité sur le moindre petit îlot du Pacifique.
+            Les grandes personnes, bien sûr, ne vous croiront pas. Elles s'imaginent tenir beaucoup de place. Elles se voient importantes comme des baobabs. Vous leur conseillerez donc de faire le calcul. Elles adorent les chiffres: ça leur plaira. Mais ne perdez pas votre temps à ce pensum. C'est inutile. Vous avez confiance en moi.</h3>
+          <h1 class="data-header iconographic-section">Fichier iconographique</h1>
+          <img src="" alt="">
         </div>
       </div>
       <div class="vl0"></div>
       <div class="vl1"></div>
       <div class="vl2"></div>
+      <div class="hl2"></div>
+      <h3 class="ref-nb">N°211020211154</h3>
+      <a href="/futur" class="futur-message">MESSAGE AU FUTUR ⇩</a>
+      <a href="/dl" class="dl-file">TÉLÉCHARGER LA FICHE</a>
       <canvas class="webgl"></canvas>
-    </div>
+    </div>  
   </section>
 
  
   <!-- JavaScript -->
-  <script type="module" src="3d.js"></script>
+  <script type="module" src="3D_Morvan.js"></script>
 </body>
 
 </html>
