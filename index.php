@@ -1,5 +1,5 @@
 <?php 
 
-include_once("page.ejs"); 
+include_once("index.html"); 
 
 ?>
