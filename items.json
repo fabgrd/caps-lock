@@ -1,5 +1,73 @@
 {
     "info": {
+        "Afrique": {
+            "Reunion": [
+                {
+                    "name": "--- Aza",
+                    "date": "07/10/21",
+                    "hour": "15:39",
+                    "ref": "",
+                    "dispo": "no",
+                    "time": "100 ans"
+                },
+                {
+                    "name": "--- Aza",
+                    "date": "07/10/21",
+                    "hour": "15:39",
+                    "ref": "07102021.1539",
+                    "dispo": "yes",
+                    "time": ""
+                },
+                {
+                    "name": "--- Aza",
+                    "date": "07/10/21",
+                    "hour": "15:39",
+                    "ref": "",
+                    "dispo": "no",
+                    "time": "1"
+                },
+                {
+                    "name": "--- Aza",
+                    "date": "07/10/21",
+                    "hour": "15:39",
+                    "ref": "",
+                    "dispo": "no",
+                    "time": "100"
+                },
+                {
+                    "name": "--- Aza",
+                    "date": "07/10/21",
+                    "hour": "15:39",
+                    "ref": "07102021.1539",
+                    "dispo": "yes",
+                    "time": ""
+                },
+                {
+                    "name": "--- Aza",
+                    "date": "07/10/21",
+                    "hour": "15:39",
+                    "ref": "07102021.1539",
+                    "dispo": "yes",
+                    "time": ""
+                },
+                {
+                    "name": "--- Aza",
+                    "date": "07/10/21",
+                    "hour": "15:39",
+                    "ref": "",
+                    "dispo": "no",
+                    "time": "100"
+                },
+                {
+                    "name": "--- Aza",
+                    "date": "07/10/21",
+                    "hour": "15:39",
+                    "ref": "07102021.1539",
+                    "dispo": "yes",
+                    "time": ""
+                }
+            ]
+        },
         "Belgique": [
             {
                 "name": "Kanté Ngolo",
@@ -29,13 +97,13 @@
                     "name": "Morvan Tanguy",
                     "date": "21/10/21",
                     "hour": "11:54",
-                    "ref": "211020211154"
+                    "ref": "07102021.2152"
                 },
                 {
                     "name": "Pasi Antoine",
                     "date": "21/10/21",
                     "hour": "11:27",
-                    "ref": "21102021.1127"
+                    "ref": "07102021.2130"
                 }
             ],
             "aisne": [

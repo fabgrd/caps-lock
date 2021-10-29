@@ -1,5 +1,5 @@
 <?php 
 
-include_once("./public/tex"); 
+include_once("./view/page.ejs"); 
 
 ?>
