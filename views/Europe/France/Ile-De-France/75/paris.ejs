@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capsule</title>
+  <!-- Liens externes -->
+  <link rel="stylesheet" href="page.css">
+</head>
+
+<body>
+  <section class="navbar">
+    <div class="nav-row">
+      <span class="nav-title nav-header nav-column">Time Capsule</span>
+      <div class="marg1"></div>
+      <button class="nav-language nav-header nav-column">EN</button>
+      <button class="nav-language nav-header nav-column">FR</button>
+      <div class="nav-marg3">
+      </div>
+      <button class="nav-header nav-column nav-search">Search</button>
+    </div>
+  </section>
+
+  <!-- Localisation -->
+  <section class="localisation">
+    <div class="main-row">
+      <div class="col-1">
+        <h1 class="localisation-title">Localisation</h1>
+        
+        <ul class="cd-accordion firstline-accordion">
+          <li class="list-item list-item--has-children">
+            <input class="cd-accordion__input" type="checkbox" name="group-0" id="group-0">
+            <label class="list-link "
+              for="group-0"><span>Afrique</span></label>
+
+            <ul class="hide_ul hide_ul--l3">
+               <li class="list-item"><a class="list-link"
+                  href="/reunion"><span>&emsp;Réunion</span></a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="cd-accordion firstline-accordion">
+          <li class="list-item list-item--has-children">
+            <input class="cd-accordion__input" type="checkbox" name="group-1" id="group-1">
+            <label class="list-link "
+              for="group-1"><span>Asie</span></label>
+
+            <ul class="hide_ul hide_ul--l3">
+              <li class="list-item"><a class="list-link"
+                 href="/vietnam"><span>&emsp;Vietnam</span></a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="cd-accordion firstline-accordion">
+          <li class="list-item list-item--has-children">
+            <input class="cd-accordion__input" type="checkbox" name="group-2" id="group-2">
+            <label class="list-link "
+              for="group-2"><span>Europe</span></label>
+
+            <!-- Belgique -->
+            <ul class="hide_ul hide_ul--l1">
+              <li class="list-item list-item--has-children" >
+                <input class="cd-accordion__input" type="checkbox" name="sub-group" id="sub-group">
+                <label class="list-link "
+                  for="sub-group"><span>&emsp;Belgique</span></label>
+
+                <ul class="hide_ul hide_ul--l3">
+                  <li class="list-item"><a class="list-link"
+                      href="/bruxelles-capitale"><span>&emsp;&emsp;Bruxelles-Capitale</span></a></li>
+                  <li class="list-item"><a class="list-link"
+                      href="/hainaut"><span>&emsp;&emsp;Hainaut</span></a></li>
+                  <li class="list-item"><a class="list-link"
+                      href="/namur"><span>&emsp;&emsp;Namur</span></a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- Espagne -->
+            <ul class="hide_ul hide_ul--l1">
+              <li class="list-item list-item--has-children" >
+                <input class="cd-accordion__input" type="checkbox" name="sub-group-0" id="sub-group-0">
+                <label class="list-link "
+                  for="sub-group-0"><span>&emsp;Espagne</span></label>
+
+                <ul class="hide_ul hide_ul--l3">
+                  <li class="list-item"><a class="list-link"
+                      href="/iles-canaries"><span>&emsp;&emsp;Îles Canaries</span></a></li>
+                  <li class="list-item"><a class="list-link"
+                      href="/murcie"><span>&emsp;&emsp;Murcie</span></a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- France -->
+            <ul class="hide_ul hide_ul--l1">
+              <li class="list-item list-item--has-children">
+                <input class="cd-accordion__input" type="checkbox" name="sub-group-1" id="sub-group-1">
+                <label class="list-link "
+                  for="sub-group-1"><span>&emsp;France</span></label>
+
+                <ul class="hide_ul hide_ul--l1">
+                  <li class="list-item list-item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name="sub-group-2" id="sub-group-2">
+                    <label class="list-link "
+                      for="sub-group-2"><span>&emsp;&emsp;Auvergne-Rhône-Alpes</span></label>
+
+                    <ul class="hide_ul hide_ul--l3">
+                      <li class="list-item"><a class="list-link"
+                          href="/ain"><span>&emsp;&emsp;&emsp;Ain (01)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/allier"><span>&emsp;&emsp;&emsp;Allier (03)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/drome"><span>&emsp;&emsp;&emsp;Drôme (26)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/isere"><span>&emsp;&emsp;&emsp;Isère (38)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/loire"><span>&emsp;&emsp;&emsp;Loire (42)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/puy-de-dome"><span>&emsp;&emsp;&emsp;Puy-de-Dôme (63)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/rhone"><span>&emsp;&emsp;&emsp;Rhône (69)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/haute-savoie"><span>&emsp;&emsp;&emsp;Haute-Savoie (74)</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="hide_ul hide_ul--l1">
+                  <li class="list-item list-item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name="sub-group-3" id="sub-group-3">
+                    <label class="list-link "
+                      for="sub-group-3"><span>&emsp;&emsp;Bourgogne-France-Comté</span></label>
+
+                    <ul class="hide_ul hide_ul--l3">
+                      <li class="list-item"><a class="list-link"
+                          href="/cote-dor"><span>&emsp;&emsp;&emsp;Côte-d'Or (21)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/doubs"><span>&emsp;&emsp;&emsp;Doubs (25)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/jura"><span>&emsp;&emsp;&emsp;Jura (39)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/saone-et-loire"><span>&emsp;&emsp;&emsp;Saône-et-Loire (71)</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="hide_ul hide_ul--l1">
+                  <li class="list-item list-item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name="sub-group-4" id="sub-group-4">
+                    <label class="list-link "
+                      for="sub-group-4"><span>&emsp;&emsp;Bretagne</span></label>
+
+                    <ul class="hide_ul hide_ul--l3">
+                      <li class="list-item"><a class="list-link"
+                          href="/cotes-darmor"><span>&emsp;&emsp;&emsp;Côtes-d'Armor (22)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/finistere"><span>&emsp;&emsp;&emsp;Finistère (29)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/ille-et-vilaine"><span>&emsp;&emsp;&emsp;Ille-et-Vilaine (35)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/morbihan"><span>&emsp;&emsp;&emsp;Morbihan (56)</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="hide_ul hide_ul--l1">
+                  <li class="list-item list-item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name="sub-group-5" id="sub-group-5">
+                    <label class="list-link "
+                      for="sub-group-5"><span>&emsp;&emsp;Centre-Val de Loire</span></label>
+
+                    <ul class="hide_ul hide_ul--l3">
+                      <li class="list-item"><a class="list-link"
+                          href="/eure-et-loire"><span>&emsp;&emsp;&emsp;Eure-et-Loire (28)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/indre-et-loire"><span>&emsp;&emsp;&emsp;Indre-et-Loire (37)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/loiret"><span>&emsp;&emsp;&emsp;Loiret (45)</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="hide_ul hide_ul--l1">
+                  <li class="list-item list-item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name="sub-group-7" id="sub-group-7">
+                    <label class="list-link "
+                      for="sub-group-7"><span>&emsp;&emsp;Grand Est</span></label>
+
+                    <ul class="hide_ul hide_ul--l3">
+                      <li class="list-item"><a class="list-link"
+                          href="/meurthe-et-moselle"><span>&emsp;&emsp;&emsp;Meurthe-et-Moselle (54)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/bas-rhin"><span>&emsp;&emsp;&emsp;Bas-Rhin (67)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/haut-rhin"><span>&emsp;&emsp;&emsp;Haut-Rhin (68)</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="hide_ul hide_ul--l1">
+                  <li class="list-item list-item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name="sub-group-8" id="sub-group-8">
+                    <label class="list-link "
+                      for="sub-group-8"><span>&emsp;&emsp;Hauts-de-France</span></label>
+
+                    <ul class="hide_ul hide_ul--l3">
+                      <li class="list-item"><a class="list-link"
+                          href="/aisne"><span>&emsp;&emsp;&emsp;Aisne (02)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/nord"><span>&emsp;&emsp;&emsp;Nord (59)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/oise"><span>&emsp;&emsp;&emsp;Oise (60)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/pas-de-calais"><span>&emsp;&emsp;&emsp;Pas-de-Calais (62)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/somme"><span>&emsp;&emsp;&emsp;Somme (80)</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="hide_ul hide_ul--l1">
+                  <li class="list-item list-item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name="sub-group-9" id="sub-group-9">
+                    <label class="list-link "
+                      for="sub-group-9"><span>&emsp;&emsp;Île-de-France</span></label>
+
+                    <ul class="hide_ul hide_ul--l3">
+                      <li class="list-item"><a class="list-link"
+                          href="/paris"><span>&emsp;&emsp;&emsp;Paris (75)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/seine-et-marne"><span>&emsp;&emsp;&emsp;Seine-et-Marne (77)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/yvelines"><span>&emsp;&emsp;&emsp;Yvelines (78)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/essonne"><span>&emsp;&emsp;&emsp;Essonne (91)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/hauts-de-seine"><span>&emsp;&emsp;&emsp;Hauts-de-Seine (92)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/seine-saint-deinis"><span>&emsp;&emsp;&emsp;Seine-Saint-Denis (93)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/val-de-marne"><span>&emsp;&emsp;&emsp;Val-de-Marne (94)</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="hide_ul hide_ul--l1">
+                  <li class="list-item list-item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name="sub-group-10" id="sub-group-10">
+                    <label class="list-link "
+                      for="sub-group-10"><span>&emsp;&emsp;Normandie</span></label>
+
+                    <ul class="hide_ul hide_ul--l3">
+                      <li class="list-item"><a class="list-link"
+                          href="/calvados"><span>&emsp;&emsp;&emsp;Calvados (14)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/eure"><span>&emsp;&emsp;&emsp;Eure (27)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/manche"><span>&emsp;&emsp;&emsp;Manche (50)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/seine-maritime"><span>&emsp;&emsp;&emsp;Seine-Maritime (76)</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="hide_ul hide_ul--l1">
+                  <li class="list-item list-item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name="sub-group-11" id="sub-group-11">
+                    <label class="list-link "
+                      for="sub-group-11"><span>&emsp;&emsp;Nouvelle-Aquitaine</span></label>
+
+                    <ul class="hide_ul hide_ul--l3">
+                      <li class="list-item"><a class="list-link"
+                          href="/dordogne"><span>&emsp;&emsp;&emsp;Dordogne (24)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/gironde"><span>&emsp;&emsp;&emsp;Gironde (33)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/landes"><span>&emsp;&emsp;&emsp;Landes (40)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/lot-et-garonne"><span>&emsp;&emsp;&emsp;Lot-et-Garonne (47)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/pyrenees-atlantiques"><span>&emsp;&emsp;&emsp;Pyrénées-Atlantiques (64)</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="hide_ul hide_ul--l1">
+                  <li class="list-item list-item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name="sub-group-12" id="sub-group-12">
+                    <label class="list-link "
+                      for="sub-group-12"><span>&emsp;&emsp;Occitanie</span></label>
+
+                    <ul class="hide_ul hide_ul--l3">
+                      <li class="list-item"><a class="list-link"
+                          href="/haute-garonne"><span>&emsp;&emsp;&emsp;Haute-Garonne (31)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/pyrenees-orientales"><span>&emsp;&emsp;&emsp;Pyrénées-Orientales (66)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/tarn"><span>&emsp;&emsp;&emsp;Tarn (81)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/tarn-et-garonne"><span>&emsp;&emsp;&emsp;Tarn-et-Garonne (82)</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="hide_ul hide_ul--l1">
+                  <li class="list-item list-item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name="sub-group-13" id="sub-group-13">
+                    <label class="list-link "
+                      for="sub-group-13"><span>&emsp;&emsp;Pays de la Loire</span></label>
+
+                    <ul class="hide_ul hide_ul--l3">
+                      <li class="list-item"><a class="list-link"
+                          href="/loire-atlantique"><span>&emsp;&emsp;&emsp;Loire-Atlantique (44)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/maine-et-loire"><span>&emsp;&emsp;&emsp;Maine-et-Loire (49)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/mayenne"><span>&emsp;&emsp;&emsp;Mayenne (53)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/sarthe"><span>&emsp;&emsp;&emsp;Sarthe (72)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/vendee"><span>&emsp;&emsp;&emsp;Vendée (85)</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="hide_ul hide_ul--l1">
+                  <li class="list-item list-item--has-children">
+                    <input class="cd-accordion__input" type="checkbox" name="sub-group-14" id="sub-group-14">
+                    <label class="list-link "
+                      for="sub-group-14"><span>&emsp;&emsp;Provence-Alpes-Côte d'Az.</span></label>
+
+                    <ul class="hide_ul hide_ul--l3">
+                      <li class="list-item"><a class="list-link"
+                          href="/hautes-alpes"><span>&emsp;&emsp;&emsp;Hautes-Alpes (05)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/alpes-maritimes"><span>&emsp;&emsp;&emsp;Alpes-Maritimes (06)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/bouches-du-rhone"><span>&emsp;&emsp;&emsp;Bouches-du-Rhône (13)</span></a></li>
+                      <li class="list-item"><a class="list-link"
+                          href="/var"><span>&emsp;&emsp;&emsp;Var (83)</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- Luxembourg -->
+            <ul class="hide_ul hide_ul--l1">
+              <li class="list-item list-item--has-children" >
+                <input class="cd-accordion__input" type="checkbox" name="sub-group-15" id="sub-group-15">
+                <label class="list-link "
+                  for="sub-group-15"><span>&emsp;Luxembourg</span></label>
+
+                <ul class="hide_ul hide_ul--l3">
+                  <li class="list-item"><a class="list-link"
+                      href="/grevenmacher"><span>&emsp;&emsp;Grevenmacher</span></a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- Monaco -->
+            <ul class="hide_ul hide_ul--l1">
+              <li class="list-item list-item--has-children" >
+                <input class="cd-accordion__input" type="checkbox" name="sub-group-16" id="sub-group-16">
+                <label class="list-link "
+                  for="sub-group-16"><span>&emsp;Monaco</span></label>
+
+                <ul class="hide_ul hide_ul--l3">
+                  <li class="list-item"><a class="list-link"
+                      href="/monaco"><span>&emsp;&emsp;Monaco</span></a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <!-- Norvège -->
+            <ul class="hide_ul hide_ul--l1">
+              <li class="list-item list-item--has-children" >
+                <input class="cd-accordion__input" type="checkbox" name="sub-group-17" id="sub-group-17">
+                <label class="list-link "
+                  for="sub-group-17"><span>&emsp;Norvège</span></label>
+
+                <ul class="hide_ul hide_ul--l3">
+                  <li class="list-item"><a class="list-link"
+                      href="/oppland"><span>&emsp;&emsp;Oppland</span></a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- Pays-bas -->
+            <ul class="hide_ul hide_ul--l1">
+              <li class="list-item list-item--has-children" >
+                <input class="cd-accordion__input" type="checkbox" name="sub-group-18" id="sub-group-18">
+                <label class="list-link "
+                  for="sub-group-18"><span>&emsp;Pays-bas</span></label>
+
+                <ul class="hide_ul hide_ul--l3">
+                  <li class="list-item"><a class="list-link"
+                      href="/hollande-meridionale"><span>&emsp;&emsp;Hollande-Méridionale</span></a></li>
+                </ul>
+              </li>
+            </ul>
+
+
+            <!-- Suisse -->
+            <ul class="hide_ul hide_ul--l1">
+              <li class="list-item list-item--has-children">
+                <input class="cd-accordion__input" type="checkbox" name="sub-group-19" id="sub-group-19">
+                <label class="list-link "
+                  for="sub-group-19"><span>&emsp;Suisse</span></label>
+
+                <ul class="hide_ul hide_ul--l3">
+                  <li class="list-item"><a class="list-link"
+                      href="/berne"><span>&emsp;&emsp;Berne</span></a></li>
+                  <li class="list-item"><a class="list-link"
+                      href="/geneve"><span>&emsp;&emsp;Genève</span></a></li>
+                  <li class="list-item"><a class="list-link"
+                      href="/valais"><span>&emsp;&emsp;Valais</span></a></li>
+                  <li class="list-item"><a class="list-link"
+                      href="/vaud"><span>&emsp;&emsp;Vaud</span></a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="people-row">
+        <div class="col-2">
+          <h1 class="people-header people-column">Nom</h1>
+          <% items.info.France.IleDeFrance.Paris.forEach(function(item){ %>
+            <div class="people-names-wrap">
+              <a class="people-names-<%= item.dispo %>" href="<%= item.ref %>">
+                <%= item.name %>
+              </a>
+              <p class="people-dispo-<%= item.dispo %>">[lock] - <%= item.time %>.</p>
+          </div>
+          <% }) %>
+        </div>
+        <div class="col-3">
+          <h1 class="people-header people-column">Date</h1>
+          <% items.info.France.IleDeFrance.Paris.forEach(function(item){ %>
+            <h3 class="people-date-<%= item.dispo %>">
+              <%= item.date %>
+            </h3>
+          <% }) %>
+        </div>
+        <div class="col-4">
+          <h1 class="people-header people-column">Heure</h1>
+          <% items.info.France.IleDeFrance.Paris.forEach(function(item){ %>
+            <h3 class="people-hour-<%= item.dispo %>">
+              <%= item.hour %>
+            </h3>
+          <% }) %>
+        </div>
+      </div>
+      <div class="data-people-row">
+        <div class="col-5">
+          <h1 class="data-header">Page libre</h1>
+          <h3 class = "">Cette section est une page libre dans laquelle vous pouvez
+            vous exprimer. (Vieille photo, lettres d’amour, scans, journaux,
+            billet d’avion, quelque chose qui fait sens pour vous).</h3>
+          <h1 class="data-header">Texte</h1>
+          <h1 class="data-header iconographic-section">Fichier iconographique</h1>
+          <img src="" alt="">
+        </div>
+      </div>
+      <div class="vl0"></div>
+      <div class="vl1"></div>
+      <div class="vl2"></div>
+      <div class="hl2"></div>
+      <canvas class="webgl"></canvas>
+    </div>  
+  </section>
+
+ 
+  <!-- JavaScript -->
+</body>
+
+</html>
+</body>
+
+</html>

@@ -6,7 +6,7 @@ const canvas = document.querySelector('.webgl')
 const scene = new THREE.Scene()
 
 const loader =  new GLTFLoader()
-loader.load('./tex/GLB_Tanguy2.glb', function(glb){
+loader.load('./tex/Tanguy-3D.glb', function(glb){
     console.log(glb)
     const root = glb.scene
     root.scale.set(0.008, 0.008, 0.008)
